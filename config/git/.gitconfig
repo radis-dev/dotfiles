@@ -1,0 +1,12 @@
+[user]
+	name = radisdev
+	email = raul.dediego@radis.dev
+
+[init]
+	defaultBranch = main
+
+[core]
+	editor = nano
+
+[diff]
+	algorithm = histogram
