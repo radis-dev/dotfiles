@@ -20,7 +20,7 @@ install_flatpak() {
 
     print_msg info "Instalando Flatpak..."
 
-    if ! { sudo apt update && sudo apt install flatpak -y }; then
+    if ! { sudo apt update && sudo apt install flatpak -y; }; then
         print_msg error "Error al instalar Flatpak."
         return 1
     fi
