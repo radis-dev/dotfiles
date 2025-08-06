@@ -30,6 +30,7 @@ install_basic_packages() {
         "curl"
         "wget"
         "git"
+        "ssh"
     )
 
     for package in "${packages[@]}"; do
