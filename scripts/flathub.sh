@@ -52,6 +52,7 @@ install_apps() {
         "org.qbittorrent.qBittorrent"
         "md.obsidian.Obsidian"
         "org.audacityteam.Audacity"
+        "com.anydesk.Anydesk"
     )
     
     print_msg info "Instalando aplicaciones de Flathub..."
